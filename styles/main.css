@@ -1,0 +1,26 @@
+body {
+	font-family: sans-serif;
+	background-color: #EAEAEA;
+}
+
+.page {
+	margin-top: 25px;
+	background-color: #EAEAEA;
+	
+}
+
+#sidebar {
+	background-color: #EAEAEA;
+	width: 17%;
+	height: 100vh;
+	/*this isn't filling the entire page heigh!! help! */
+}
+
+.menu {
+	margin-top: 150px;
+}
+
+.logo-image {
+	position: fixed;
+	padding: 15px 0 0 0;
+}
