@@ -8,76 +8,129 @@ body {
 	margin-top: 25px;
 	background-color: #EAEAEA;
 	font-size: 16px;
-	
 }
 
-#sidebar {
-	background-color: #EAEAEA;
-	width: 17%;
-	height: 100vh;
-	/*this isn't filling the entire page heigh!! help! */
+
+
+/*NAVBAR*/
+.selected {
+	color: #61ABEC;
+	font-weight: 700;
+}
+
+.sidebar {
+	position: fixed;
+  width: 150px;
+  background-color: #EAEAEA;
+  height: 100vh;
 }
 
 .menu {
-	margin-top: 150px;
+	padding-top: 250px;
+	font-size: 16px;
+}
+
+.menu, .submenu {
+  list-style: none;
+  margin: 0;
+  padding: none;
+}
+
+.menu a {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  color: #000;
+}
+
+.menu a:hover {
+    background-color: #C5C5C5;
+}
+
+.menu li:hover .submenu {
+  display: block;
+  max-height: 200px;
+}
+
+.submenu a {
+  background-color: #999;
+}
+
+.submenu a:hover {
+  background-color: #666;
+}
+
+.submenu {
+  overflow: hidden;
+  max-height: 0;
+  -webkit-transition: all 0.5s ease-out;
 }
 
 .logo-image {
 	position: fixed;
-	padding: 15px 0 0 0;
+	margin: 80px 0 0 0;
+	padding-left: 10px;
 }
+/* UPLOAD NEW LOGO IMAGE!! */
 
-/* NAV BAR CSS */
-ul {
- position: fixed;
- margin: 0;
- padding: 0;
- list-style: none;
- width: 100px;
- }
-
- ul li {
- position: relative;
- }
-
- li ul {
- position: absolute;
- left: 100px;
- top: 0;
- display: none;
- background-color: #EAEAEA
- }
-
- ul li a {
- display: block;
- text-decoration: none;
- color: black;
- background: #fff;
- border-bottom: 0;
- padding: 15px 0 0 0;
- background-color: #EAEAEA
- }
-
-li:hover ul { 
- display: block;
-}
-
-#sidebar {
-	background-color: #EAEAEA;
-	width: 175px;
-	height: 100vh;
-	/*this isn't filling the entire page height!! help! */
-}
-
-.menu {
-	margin-top: 150px;
-	font-family: Arial;
-	background-color: #EAEAEA
-}
-
-.logo-image {
-	position: fixed;
-	padding: 15px 0 0 0;
-	width: auto;
-}
 /* END NAVBAR CSS */
+
+
+
+/*MOBILE LAYOUT*/
+@media (max-width: 400px) {
+  .sidebar {
+    float: left;
+    position: fixed;
+    width: 100px;
+  }
+  .menu {
+    position: fixed;
+  }
+  #home {
+    float: right;
+  }
+  /*fix top margin height -- how?? */
+  #about {
+    padding-left: 40px;
+  }
+  .about-pic {
+    max-width: 100px;
+  }
+  /*  fix pic size & position - it won't resize for me!! :( */  
+  #about-text {
+    padding-top: 275px;
+    width: 230%;
+  }
+  #photography {
+    padding-left: 40px;
+  }
+  /*  resize header size */  
+  #design {
+    padding-left: 40px;
+    display: block;
+  }
+  /* fix card layout -- display: block; won't work! */
+  .card.small {
+    width: 200px;
+    height: auto;
+  }
+  #project1 {
+    padding-left: 40px;
+  /* fix text and photo layout */
+  } 
+  #project2 {
+    padding-left: 40px;
+  } 
+  #project3 {
+    padding-left: 40px;
+  } 
+  #project4 {
+    padding-left: 40px;
+  } 
+  #contact {
+    padding-left: 40px;
+  }
+  /* mail icon inline with email address; smaller font */
+}
+/*END MOBILE LAYOUT CSS */

@@ -6,6 +6,7 @@
   <link rel="stylesheet" type="text/css" href="styles/contact.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Rajdhani:400,500,600,700" rel="stylesheet">
 </head>
 
@@ -13,31 +14,35 @@
 
 <div class="row">
   <div class="col s3">
-    <img class="logo-image" src="placeholder1.jpg" alt="Izzi logo" width="200px" height="150px">
-    <div class="menu">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="photography.html">Photography</a></li>
-        <li><a href="design.html">Design</a>
-          <ul>
-            <li><a href="project1.html">Project 1</a></li>
-            <li><a href="project2.html">Project 2</a></li>
-            <li><a href="project3.html">Project 3</a></li>
-            <li><a href="project4.html">Project 4</a></li>
-          </ul>
-        </li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+    <div class="sidebar">
+      <img class="logo-image" src="final_logo2.png" alt="Izzi logo" height="120px">
+      <div class="menu">
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="photography.html">photography</a></li>
+          <li><a href="design.html">design</a>
+            <ul class="submenu">
+              <li><a href="project1.html">project 1</a></li>
+              <li><a href="project2.html">project 2</a></li>
+              <li><a href="project3.html">project 3</a></li>
+              <li><a href="project4.html">project 4</a></li>
+            </ul>
+          </li>
+          <li class="selected"><a href="contact.html">contact</a></li>
+        </ul>
+      </div>
     </div>
   </div>
 
   <div class="col s9">
     <div class="page" id="contact">
-      <h2>Contact</h2>
-      <p>*icon* <a href="mailto:izzicain@gmail.com"> izzicain@gmail.com</a></p>
-      <p>*icon* Troy, New York</p>
-      <p>or a form???</p>
+      <h2>contact</h2>
+      <div class="contact-info">
+        <p><i class="small material-icons">email</i> <a href="mailto:izzicain@gmail.com"> izzicain@gmail.com</a></p>
+        <p><i class="small material-icons">home</i> Troy, New York</p>
+        <!-- make icons in line with text!! -->
+      </div>
     </div>
   </div>
 </div>
