@@ -1,11 +1,31 @@
 h2 {	
 	margin: none;
-	padding: 40px 0 0 0;
-	font-weight: 700;
-	/* how do i clear the predetermined style? for example, font-weight 700 won't work since (i'm guessing) the stylesheet imported some styles */
+	padding: 20px 0 0 0;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+h5 {
+	font-size: 22px;
 	color: #61ABEC;
+}
+
+h6 {
+	font-size: 18px;
+	color: #61ABEC;
+	padding: none;
+}
+
+.col.s4 {
+
+}
+
+.li{
+	/*text-indent: 5em;*/
 }
 
 .hover-bold:hover {
 	font-weight: 600;
-};
+}

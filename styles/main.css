@@ -5,29 +5,44 @@ body {
 }
 
 .page {
-	margin-top: 25px;
 	background-color: #EAEAEA;
 	font-size: 16px;
 }
 
-
-
-/*NAVBAR*/
-.selected {
-	color: #61ABEC;
-	font-weight: 700;
+h2 {
+  font-weight: 500;
+  color: #61ABEC;
 }
 
+/*NAVBAR*/
 .sidebar {
-	position: fixed;
+  padding-top: 10%;
+  position: fixed;
   width: 150px;
   background-color: #EAEAEA;
   height: 100vh;
 }
 
+.logo-image-top {
+  position: fixed;
+  margin: 50px 0 0 0;
+  padding-left: 10px;
+}
+
+.logo-image-bottom {
+  position: fixed;
+  margin: 0;
+  padding-left: 10px;
+}
+
 .menu {
-	padding-top: 250px;
-	font-size: 16px;
+  padding-top: 80%;
+  font-size: 16px;
+}
+
+.selected {
+	color: #61ABEC;
+	font-weight: 700;
 }
 
 .menu, .submenu {
@@ -65,14 +80,6 @@ body {
   max-height: 0;
   -webkit-transition: all 0.5s ease-out;
 }
-
-.logo-image {
-	position: fixed;
-	margin: 80px 0 0 0;
-	padding-left: 10px;
-}
-/* UPLOAD NEW LOGO IMAGE!! */
-
 /* END NAVBAR CSS */
 
 
@@ -115,6 +122,10 @@ body {
     width: 200px;
     height: auto;
   }
+  .row .col.s4{
+    width: 100%;
+  }
+  /* fix!! */
   #project1 {
     padding-left: 40px;
   /* fix text and photo layout */

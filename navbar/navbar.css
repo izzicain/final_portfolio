@@ -1,35 +1,67 @@
-ul {
- position: fixed;
- margin: 0;
- padding: 0;
- list-style: none;
- width: 100px;
- }
-
- ul li {
- position: relative;
- }
-
- li ul {
- position: absolute;
- left: 100px;
- top: 0;
- display: none;
- background-color: #EAEAEA;
- }
-
- ul li a {
- display: block;
- text-decoration: none;
- color: black;
- background: #fff;
- border-bottom: 0;
- padding: 15px 0 0 0;
- background-color: #EAEAEA
- }
- 
-.logo-image {
-	position: fixed;
-	padding: 15px 0 0 0;
-	width: auto;
+/*NAVBAR*/
+.sidebar {
+  padding-top: 10%;
+  position: fixed;
+  width: 150px;
+  background-color: #EAEAEA;
+  height: 100vh;
 }
+
+.logo-image-top {
+  position: fixed;
+  margin: 50px 0 0 0;
+  padding-left: 10px;
+}
+
+.logo-image-bottom {
+  position: fixed;
+  margin: 0;
+  padding-left: 10px;
+}
+
+.menu {
+  padding-top: 80%;
+  font-size: 16px;
+}
+
+.selected {
+	color: #61ABEC;
+	font-weight: 700;
+}
+
+.menu, .submenu {
+  list-style: none;
+  margin: 0;
+  padding: none;
+}
+
+.menu a {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  color: #000;
+}
+
+.menu a:hover {
+    background-color: #C5C5C5;
+}
+
+.menu li:hover .submenu {
+  display: block;
+  max-height: 200px;
+}
+
+.submenu a {
+  background-color: #999;
+}
+
+.submenu a:hover {
+  background-color: #666;
+}
+
+.submenu {
+  overflow: hidden;
+  max-height: 0;
+  -webkit-transition: all 0.5s ease-out;
+}
+/* END NAVBAR CSS */

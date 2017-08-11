@@ -1,12 +1,28 @@
 h2 {	
 	margin: none;
-	padding: 40px 0 20px 0;
-	font-weight: 700;
-	/* how do i clear the predetermined style? for example, font-weight 700 won't work since (i'm guessing) the stylesheet imported some styles */
-	color: #61ABEC;
+	padding: 20px 0 20px 0;
 }
 
 .project-menu {
 	font-weight: 400;
 	color: black;
+}
+
+.hover-bold:hover {
+	font-weight: 600;
+}
+
+.card-content {
+	font-size: 16px;
+	text-align: center;
+}
+
+.card-action {
+	text-align: center;
+}
+
+h6 {
+	color: #61ABEC;
+	font-weight: 600;
+	font-size: 18px;
 }

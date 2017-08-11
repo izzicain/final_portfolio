@@ -8,3 +8,7 @@
       });
 
     });
+
+$.get("navbar.html", function(data){
+    $("#sidebar").replaceWith(data);
+});

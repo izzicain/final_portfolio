@@ -1,9 +1,6 @@
 h2 {	
 	margin: none;
-	padding: 40px 0 0 0;
-	font-weight: 700;
-	/* how do i clear the predetermined style? for example, font-weight 700 won't work since (i'm guessing) the stylesheet imported some styles */
-	color: #61ABEC;
+	padding: 20px 0 0 0;
 }
 
 .hover-bold:hover {
@@ -11,4 +8,5 @@ h2 {
 }
 
 .about-pic {
+	padding-left: 80px;
 }

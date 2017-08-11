@@ -2,15 +2,18 @@
 	border: 1px solid #A2A2A2;
 	padding: 0 15px 25px 15px;	
 	text-align: center;
-	width: 55%;
-	margin: 250px 20% 25% 18%;
-	/*center this vertically */
+	width: 35%;
+	height: 30%;
 }
 
 body {
 	background-image: url(file:///Users/isabellacain/Desktop/GA/GitHub/final_portfolio/placeholder4.jpg);
 	background-position: center;
 	background-size: cover;
+}
+
+.col.s10 {
+	height: 100%;
 }
 
 .hover-bold:hover {
