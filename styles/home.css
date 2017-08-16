@@ -1,9 +1,11 @@
 #home {
 	border: 1px solid #A2A2A2;
-	padding: 0 15px 25px 15px;	
+	padding: 0 30px 225px 30px;	
 	text-align: center;
-	width: 35%;
-	height: 30%;
+	width: 300px;
+	height: 200px;
+	margin: 250px 0 0 35%;
+	position: static;
 }
 
 body {
