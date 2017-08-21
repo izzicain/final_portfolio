@@ -3,6 +3,10 @@ h2 {
 	padding: 20px 0 20px 0;
 }
 
+.card {
+	margin-right: 25px;
+}
+
 .project-menu {
 	font-weight: 400;
 	color: black;

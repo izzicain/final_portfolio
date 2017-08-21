@@ -2,3 +2,8 @@ h2 {
 	margin: none;
 	padding: 20px 0 0 0;
 }
+
+.carousel .carousel-item { 
+	height: auto; 
+	width: 500px;
+}

@@ -14,6 +14,7 @@ h2 {
   color: #61ABEC;
 }
 
+
 /*NAVBAR*/
 .sidebar {
   padding-top: 10%;
@@ -26,13 +27,13 @@ h2 {
 .logo-image-top {
   position: fixed;
   margin: 50px 0 0 0;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 .logo-image-bottom {
   position: fixed;
   margin: 0;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 .menu {
@@ -54,12 +55,12 @@ h2 {
 .menu a {
   display: block;
   text-decoration: none;
-  padding: 10px;
+  padding: 10px 10px 10px 20px;
   color: #000;
 }
 
 .menu a:hover {
-    background-color: #C5C5C5;
+  background-color: #C5C5C5;
 }
 
 .menu li:hover .submenu {
@@ -80,39 +81,79 @@ h2 {
   max-height: 0;
   -webkit-transition: all 0.5s ease-out;
 }
+
+.page-footer {
+  background-color: #EAEAEA;
+  color: black;
+  padding-left: 20px;
+  margin-top: 120px;
+  position: static;
+}
 /* END NAVBAR CSS */
 
 
 
 /*MOBILE LAYOUT*/
 @media (max-width: 400px) {
+  /*SIDEBAR & MENU */
   .sidebar {
     float: left;
     position: fixed;
-    width: 100px;
+    width: 105px;
   }
-  .menu {
+  div.menu {
+    padding: 170px 0 0 0;
     position: fixed;
   }
-  #home {
-    float: right;
+  .menu a {
+    padding-left: 10px;
   }
-  /*fix top margin height -- how?? */
+  .logo-image-top {
+    position: fixed;
+    padding-left: 10px;
+    margin: 100px 0 0 0;
+  }
+  .logo-image-bottom {
+    position: fixed;
+    padding-left: 10px;
+    margin: 430px 0 0 0;
+  }
+  .page-footer {
+    position: fixed;
+    padding-left: 10px;
+    margin-top: 580px;
+  }
+  /*END SIDEBAR & MENU FOR MOBILE*/
+
+  #home {
+    margin: 180px 0 0 85px;
+    height: 300px;
+    width: 175px;
+  }
+  
   #about {
     padding-left: 40px;
   }
   .about-pic {
-    max-width: 100px;
+    width: 200px;
+    height: 200px;
+    padding: 0 0 0 0;
+    float: left;
   }
-  /*  fix pic size & position - it won't resize for me!! :( */  
+  /*  fix pic position - it won't reposition for me!! :( */  
   #about-text {
     padding-top: 275px;
     width: 230%;
   }
+  
   #photography {
     padding-left: 40px;
   }
-  /*  resize header size */  
+  .carousel .carousel-item {
+    height: 400px;
+    width: 220px;
+  }  
+  
   #design {
     padding-left: 40px;
     display: block;
@@ -126,18 +167,23 @@ h2 {
     width: 100%;
   }
   /* fix!! */
+  
   #project1 {
     padding-left: 40px;
+    width: 140%;
   /* fix text and photo layout */
   } 
   #project2 {
     padding-left: 40px;
+    width: 140%;
   } 
   #project3 {
     padding-left: 40px;
+    width: 140%;
   } 
   #project4 {
     padding-left: 40px;
+    width: 140%;
   } 
   #contact {
     padding-left: 40px;
