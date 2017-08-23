@@ -1,5 +1,5 @@
 h2 {	
-	margin: 49px 0 44px 0;
+	margin: 45px 0 40px 0;
 }
 
 .col.s7 {
@@ -26,10 +26,6 @@ div.row {
 #name:focus, #email:focus, #subject:focus, #message:focus {
 	border-bottom: 2px solid #61ABEC;
 	box-shadow: none;
-}
-
-.submit-btn{
-	color: #61ABEC;
 }
 
 .contact-info {

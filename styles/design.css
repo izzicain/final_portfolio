@@ -1,9 +1,10 @@
 h2 {	
-	margin: 49px 0 44px 0;
+	margin: 45px 0 40px 0;
 }
 
 .card {
 	margin-right: 25px;
+	box-shadow: none;
 }
 
 .project-menu {

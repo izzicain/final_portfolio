@@ -9,6 +9,6 @@
 
     });
 
-$.get("navbar.html", function(data){
-    $("#sidebar").replaceWith(data);
-});
+$(document).ready(function(){
+    $('.collapsible').collapsible();
+  });

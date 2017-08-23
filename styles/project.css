@@ -1,5 +1,5 @@
 h2 {	
-	margin: 49px 0 44px 0;
+	margin: 45px 0 40px 0;
 }
 
 h4 {
@@ -19,14 +19,25 @@ h6 {
 	padding: none;
 }
 
-.col.s4 {
-
-}
-
-.li{
-	/*text-indent: 5em;*/
-}
-
-.hover-bold:hover {
+.hover-bold:hover, .collapsible-header:hover {
 	font-weight: 600;
+}
+
+.collapsible {
+	margin-top: 25px;
+	box-shadow: none;
+	display: block;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	margin: none;
+}
+
+.collapsible-header {
+	background-color: #D5D5D5;
+	margin-bottom: 10px;
+}
+
+.design-content {
+	display: flex;
 }
