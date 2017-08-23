@@ -1,7 +1,6 @@
 body {
-	font-family: sans-serif;
 	background-color: #EAEAEA;
-	font-family: "Rajdhani", sans-serif;
+	font-family: "Raleway", sans-serif;
 }
 
 .page {
@@ -10,40 +9,38 @@ body {
 }
 
 h2 {
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 45px;
   color: #61ABEC;
 }
 
 
 /*NAVBAR*/
 .sidebar {
-  padding-top: 10%;
   position: fixed;
-  width: 150px;
+  width: 140px;
   background-color: #EAEAEA;
   height: 100vh;
 }
 
-.logo-image-top {
+.name {
   position: fixed;
-  margin: 50px 0 0 0;
-  padding-left: 20px;
-}
-
-.logo-image-bottom {
-  position: fixed;
-  margin: 0;
-  padding-left: 20px;
+  padding: 15px 15px 15px 18px;
+  margin-top: 0;
+  font-size: 45px;
+  line-height: 1.3;
+  background-color: #61ABEC;
+  color: #EAEAEA;
 }
 
 .menu {
-  padding-top: 80%;
+  padding-top: 140px;
   font-size: 16px;
 }
 
 .selected {
-	color: #61ABEC;
 	font-weight: 700;
+  color: #61ABEC;
 }
 
 .menu, .submenu {
@@ -55,7 +52,7 @@ h2 {
 .menu a {
   display: block;
   text-decoration: none;
-  padding: 10px 10px 10px 20px;
+  padding: 10px 10px 10px 18px;
   color: #000;
 }
 
@@ -85,9 +82,9 @@ h2 {
 .page-footer {
   background-color: #EAEAEA;
   color: black;
-  padding-left: 20px;
-  margin-top: 120px;
-  position: static;
+  padding-left: 18px;
+  position: fixed;
+  bottom: 20px;
 }
 /* END NAVBAR CSS */
 
@@ -107,16 +104,6 @@ h2 {
   }
   .menu a {
     padding-left: 10px;
-  }
-  .logo-image-top {
-    position: fixed;
-    padding-left: 10px;
-    margin: 100px 0 0 0;
-  }
-  .logo-image-bottom {
-    position: fixed;
-    padding-left: 10px;
-    margin: 430px 0 0 0;
   }
   .page-footer {
     position: fixed;

@@ -1,14 +1,40 @@
 h2 {	
-	margin: none;
-	padding: 20px 0 0 0;
+	margin: 49px 0 44px 0;
+}
+
+.col.s7 {
+	padding-left: 0;
+}
+
+.col.s4 {
+	padding-left: 50px;
+	padding-right: 0;
 }
 
 #contact {
-	font-size: 25px;
+	font-size: 18px;
+}
+
+form.col.s12, div.input-field.col.s12 {
+	padding-left: 0;
+}
+
+div.row {
+	margin-bottom: 0;
+}
+
+#name:focus, #email:focus, #subject:focus, #message:focus {
+	border-bottom: 2px solid #61ABEC;
+	box-shadow: none;
+}
+
+.submit-btn{
+	color: #61ABEC;
 }
 
 .contact-info {
-	padding: 20px 0 0 0;
+	padding: 0 0 15px 0;
+	margin-bottom: 15px;
 }
 
 .material-icons{

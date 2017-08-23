@@ -1,9 +1,9 @@
 h2 {	
-	margin: none;
-	padding: 20px 0 0 0;
+	margin: 49px 0 44px 0;
 }
 
 .carousel .carousel-item { 
-	height: auto; 
+	height: auto;
 	width: 500px;
 }
+/*fix height?? make it in line with bottom of blue nav box*/
