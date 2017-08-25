@@ -2,12 +2,18 @@ h2 {
 	margin: 45px 0 40px 0;
 }
 
+#about-text {
+	width: 60%;
+}
+
 .hover-bold:hover {
 	font-weight: 600;
 }
 
 .about-pic {
-	padding-left: 50px;
-	height: 350px;
-	width: 400px;
+	position: fixed;
+	top: 139px;
+	right: 50px;
+	padding: 0 0 0 20px;
+	width: 25%;
 }

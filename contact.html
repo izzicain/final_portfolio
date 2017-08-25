@@ -33,7 +33,8 @@
         </ul>
       </div>
       <footer class="page-footer">
-        &copy; Izzi Cain 2017
+        &copy; Izzi Cain 2017<br>
+        Coded with my knowledge of HTML, CSS and Javascript
       </footer>
     </div>
   </div>
@@ -41,11 +42,12 @@
   <div class="col s10">
     <div class="page" id="contact">
       
-      <h2>contact</h2>
+      <h2 id="contact-title">contact</h2>
 
       <div class="col s7">
-        <form class="col s12" action="https://www.enformed.io/5t16m0wq">
-          
+        <form class="col s12" id="contact-form" action="https://www.enformed.io/5t16m0wq">
+          <input type="hidden" name="*redirect" value="file:///Users/isabellacain/Desktop/GA/GitHub/final_portfolio/contactredirect.html">
+          <!-- not redirecting to contactredirect.html -->
           <div class="row">
             <div class="input-field col s12">
               <input name="Name" id="name" type="text" placeholder="Name">
@@ -75,12 +77,10 @@
         </form>
       </div>
 
-        <div class="col s4">
-          <div class="contact-info">
-            <p><i class="small material-icons">email</i> <a href="mailto:izzicain@gmail.com" class="hover-bold"> izzicain@gmail.com</a></p>
-            <p><i class="small material-icons">insert_link</i> <a href="http://www.linkedin.com/in/izzi-cain" class="hover-bold"> LinkedIn</a></p>
-            <p><i class="small material-icons">home</i> Troy, New York</p>
-          </div>
+        <div class="col s4" id="contact-info">
+          <p><i class="small material-icons">email</i> <a href="mailto:izzicain@gmail.com" class="hover-bold"> izzicain@gmail.com</a></p>
+          <p><i class="small material-icons">insert_link</i> <a href="http://www.linkedin.com/in/izzi-cain" class="hover-bold"> LinkedIn</a></p>
+          <p><i class="small material-icons">home</i> Troy, New York</p>
         </div>
       
       </div>

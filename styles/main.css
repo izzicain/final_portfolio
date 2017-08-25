@@ -84,9 +84,12 @@ h2 {
 .page-footer {
   background-color: #EAEAEA;
   color: black;
+  font-size: 11px;
   padding-left: 15px;
   position: fixed;
-  bottom: 20px;
+  bottom: 15px;
+  width: 135px;
+  margin-bottom: none;
 }
 /* END NAVBAR CSS */
 
@@ -94,89 +97,169 @@ h2 {
 
 /*MOBILE LAYOUT*/
 @media (max-width: 400px) {
+  
   /*SIDEBAR & MENU */
   .sidebar {
     float: left;
     position: fixed;
     width: 105px;
   }
-  div.menu {
-    padding: 170px 0 0 0;
+  .name {
     position: fixed;
+    width: 105px;
+    font-size: 32px;
+  }
+  div.menu {
+    padding: 100px 0 0 0;
+    position: fixed;
+    font-size: 14px;
   }
   .menu a {
-    padding-left: 10px;
+    padding: 12px 10px 12px 15px;
+
   }
   .page-footer {
+    width: 105px;
     position: fixed;
     padding-left: 10px;
-    margin-top: 580px;
+    bottom: 15px;
   }
   /*END SIDEBAR & MENU FOR MOBILE*/
+  
+  h2 {
+    font-size: 40px;
+  }
+
+  .page {
+    font-size: 14px;
+  }
 
   #home {
-    margin: 180px 0 0 85px;
-    height: 300px;
-    width: 175px;
+    padding: 5px 7px 15px 7px;
+    height: 225px;
+    width: 215px;
   }
   
+
   #about {
     padding-left: 40px;
   }
   .about-pic {
+    position: absolute;
+    top: 100px;
     width: 200px;
     height: 200px;
-    padding: 0 0 0 0;
-    float: left;
   }
   /*  fix pic position - it won't reposition for me!! :( */  
   #about-text {
-    padding-top: 275px;
-    width: 230%;
+    padding-top: 230px;
+    width: 100%;
+  }
+  #about-title {
+    margin: 29px 35px 29px 35px;
   }
   
+
   #photography {
     padding-left: 40px;
   }
+  #photography-title {
+    margin: 29px 5px 29px 5px;
+    padding-left: 3px;
+  }
   .carousel .carousel-item {
-    height: 400px;
+    height: 300px;
     width: 220px;
   }  
   
+
   #design {
     padding-left: 40px;
     display: block;
   }
-  /* fix card layout -- display: block; won't work! */
-  .card.small {
+  #design-title {
+    margin: 29px 5px 29px 5px;
+    padding: 0 60px 0 60px;
+  }
+  .card {
     width: 200px;
     height: auto;
+    margin: 5px 30px 5px 30px;
   }
   .row .col.s4{
     width: 100%;
   }
-  /* fix!! */
-  
-  #project1 {
+
+
+  div.collapsible-header {
+    width: 250px;
+  }
+  h4 {
+    font-size: 14px;
+  }
+  .design-content {
+    display: block;
+  }
+
+  #dfaproject {
     padding-left: 40px;
-    width: 140%;
+    width: 115%;
   /* fix text and photo layout */
   } 
-  #project2 {
+  #dfa-title {
+    text-align: center;
+    font-size: 28px;
+    margin: 21px 0 21px 0;
+  }
+
+  #campuswaste {
     padding-left: 40px;
-    width: 140%;
-  } 
-  #project3 {
+    width: 115%;
+  }
+  #campus-title {
+    font-size: 34px;
+    text-align: center;
+    margin: 30px 0 30px 0;
+  }
+
+  #youthtobooth {
     padding-left: 40px;
-    width: 140%;
-  } 
-  #project4 {
+    width: 115%;
+  }
+  #youth-title {
+    font-size: 34px;
+    text-align: center;
+    margin: 30px 0 30px 0;
+  }
+
+  #deskpouch {
     padding-left: 40px;
-    width: 140%;
-  } 
+    width: 115%;
+  }
+  #desk-title {
+    text-align: center;
+    margin: 30px 0 30px 0;
+  }
+
   #contact {
     padding-left: 40px;
   }
-  /* mail icon inline with email address; smaller font */
+  #contact-title {
+    text-align: center;
+    margin: 30px 0 30px 0;
+  }
+  #contact-form {
+    width: 250px;
+  }
+  div#contact-info.col.s4 {
+    padding-left: 0;
+  }
 }
 /*END MOBILE LAYOUT CSS */
+
+
+
+
+
+
+

@@ -41,3 +41,7 @@ div.row {
 .hover-bold:hover {
 	font-weight: 600;
 }
+
+.waves-effect.light-blue.btn {
+	box-shadow: none;
+}
