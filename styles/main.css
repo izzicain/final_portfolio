@@ -150,13 +150,13 @@ h2 {
     width: 200px;
     height: 200px;
   }
-  /*  fix pic position - it won't reposition for me!! :( */  
   #about-text {
     padding-top: 230px;
     width: 100%;
   }
   #about-title {
     margin: 29px 35px 29px 35px;
+    text-align: center;
   }
   
 
@@ -199,6 +199,10 @@ h2 {
   }
   .design-content {
     display: block;
+  }
+  .design-content-img {
+    width: 200px;
+    height: auto;
   }
 
   #dfaproject {

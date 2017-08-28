@@ -41,3 +41,11 @@ h6 {
 .design-content {
 	display: flex;
 }
+
+.design-list {
+	list-style-type: disc;
+}
+
+.design-content-img {
+	padding-left: 20px;
+}
